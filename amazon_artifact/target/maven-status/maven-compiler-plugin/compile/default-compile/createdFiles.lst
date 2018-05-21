@@ -1,1 +1,4 @@
+com\amazon\project\pages\MainMenuSelection.class
+com\amazon\project\pages\MobileSelectionPage.class
+com\amazon\project\pages\HomePage.class
 com\amazon\project\driver\DriverManager.class

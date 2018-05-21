@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.amazon.project.tests.MobileSelectionTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.amazon.project.tests.MobileSelectionTest">
+        <methods>
+          <include name="mobileSelectionRange"/>
+          <include name="selectPhoneCategory"/>
+          <include name="gotomainmenu"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.amazon.project.tests.MobileSelectionTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.amazon.project.tests.MobileSelectionTest] -->

@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.amazon.project.tests.AmazonHomePageLaunch">
+      <class name="com.amazon.project.tests.MobileSelectionTest">
         <methods>
+          <include name="mobileSelectionRange"/>
+          <include name="selectPhoneCategory"/>
           <include name="gotomainmenu"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.amazon.project.tests.AmazonHomePageLaunch -->
+      </class> <!-- com.amazon.project.tests.MobileSelectionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

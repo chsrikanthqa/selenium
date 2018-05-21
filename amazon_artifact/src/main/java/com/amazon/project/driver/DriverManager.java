@@ -9,12 +9,13 @@ public class DriverManager {
 	private static WebDriver driver;
 	
 	public static WebDriver launchBrowser(String browser) {
-		if (browser.equals("firefox")) {
+		if (browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webDriver.firefox.driver", "geckodriver.exe");
+			//System.setProperty("webDriver.firefox.driver",System.getProperty("FIREFOX_WEB_DRIVER_PATH"));
 			driver=new FirefoxDriver();
 		}
-		else if (browser.equals("chrome")) {
-			System.setProperty("webDriver.chrome.driver", "D:\\Education\\softwares\\Selenium\\chromedriver.exe");
+		else if (browser.equalsIgnoreCase("chrome")) {
+			System.setProperty("webDriver.chrome.driver", "chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		return driver;
